@@ -3585,6 +3585,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 940395443}
     m_Modifications:
+    - target: {fileID: 197545617701378933, guid: fe19f183652f0434dba515f0a67f32fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838900846101047460, guid: fe19f183652f0434dba515f0a67f32fe, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3448407531955227169, guid: fe19f183652f0434dba515f0a67f32fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6006482817133594082, guid: fe19f183652f0434dba515f0a67f32fe, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3641,9 +3653,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6976281575460693662, guid: fe19f183652f0434dba515f0a67f32fe, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7277827531358255089, guid: fe19f183652f0434dba515f0a67f32fe, type: 3}
       propertyPath: m_Name
       value: GRAB_AF_TV
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277827531358255089, guid: fe19f183652f0434dba515f0a67f32fe, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277827531358255089, guid: fe19f183652f0434dba515f0a67f32fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5945,6 +5969,7 @@ Transform:
   - {fileID: 1762268678}
   - {fileID: 1914491648}
   - {fileID: 316987724}
+  - {fileID: 1796000055}
   - {fileID: 567267561}
   - {fileID: 991151154}
   - {fileID: 484891554}
@@ -5952,7 +5977,6 @@ Transform:
   - {fileID: 60955222}
   - {fileID: 1686016221}
   - {fileID: 916744094}
-  - {fileID: 1796000055}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11237,7 +11261,7 @@ GameObject:
   - component: {fileID: 1796000057}
   - component: {fileID: 1796000056}
   m_Layer: 0
-  m_Name: Title_Poke_Filters (1)
+  m_Name: Title_Grab_Affordance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
